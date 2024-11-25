@@ -5,6 +5,8 @@ from langchain.chains import RetrievalQA
 from utils.vectorstore import load_pdf_and_create_vectorstore
 import os
 
+
+st.set_page_config(page_title="Chatbot IA Regulamento CBF")
 # Streamlit app layout
 st.title("Chatbot com Regulamento CBF 2024")
 
